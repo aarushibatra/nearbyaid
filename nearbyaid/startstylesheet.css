@@ -1,0 +1,162 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: cursive;
+}
+
+a {
+  text-decoration: none;
+}
+
+.clear {
+  clear: left;
+}
+
+.container {
+  max-width: 1270px;
+  width: 100%;
+  padding: 0 -5px;
+  margin: 0 auto;
+}
+
+.header-left h1 {
+  font-size: 40px;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+  font-family: 'Crushed';
+}
+
+h1 {
+  opacity: 100%;
+  margin-bottom: 3px;
+  font-family: "Crushed";
+  font-size: 100px;
+}
+
+header {
+  height: 120px;
+  width: 100%;
+  background-color: rgb(0,0,0);
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.logo {
+  width: 230px;
+  height : 95px;
+  margin-top: 10px;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-right {
+  float: right;
+  margin-right: -25px;
+  padding-top: 30px;
+
+}
+
+.container h2{
+  font-family: "Blinker";
+  text-align: center;
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: rgb(255,255,255);
+  font-size: 20px;
+  font-family: Crushed;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+}
+
+.header-right a:hover {
+  background-color:rgb(235, 108, 80);
+}
+
+.images{
+  align: "center";
+}
+
+.form-wrapper{
+  padding: 80px 15px 100px 15px;
+  text-align: center;
+  widht:100%;
+  margin: 0 auto;
+  max-width: 1170px;
+}
+
+.contact-form {
+  color: rgb(2,2,2);
+  font-family: 'Blinker';
+}
+
+.contact-form h3{
+  font-family: 'Blinker';
+  font-size: 32px;
+}
+
+.contact-form p{
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.carousel-caption{
+  font-family: "Blinker";
+}
+
+input,textarea,button {
+  width:400px;
+  margin-top:5px;
+  margin-bottom:0px;
+  padding:20px;
+  border: 2px solid #dee7ec;
+  font-size:18px;
+  font-family:'Blinker';
+}
+
+.contact-submit{
+  background-color:rgb(235, 108, 80);
+  color:rgb(247, 231, 198);
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  font-family: 'Blinker';
+}
+
+footer img {
+  width: 200px;
+}
+
+.footer-left{
+  padding-top: 5px;
+  float: left;
+}
+
+footer p {
+  color: white;
+  font-size: 12px;
+}
+
+footer {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: rgb(0, 0, 0);
+}
+
+.footer-right{
+  color: white;
+  font-family: Blinker;
+}
+
+.social{
+  width: 150px;
+}
